@@ -1,25 +1,59 @@
 
 
 <template>
-  <section class="hero is-fullheight banner-full">
+  <section class="hero is-large banner-full pb-4">
+    <img src="./assets/images/logo.png" alt="">
+    <p>express your love by protecting your baby's skin <br>100% natural ingredients perfect for sensitive skin</p>
   </section>
-  <section class="section is-medium">
+  <section class="section is-medium px-0 is-relative pt-0">
     <div class="container">
-      <div class="columns is-multiline is-mobile is-vcentered is-centered">
-        <div class="column is-full-mobile is-12-tablet mb-6">
-          <div class="wrap-button">
-            <a href="" class="btn">Tiktok</a>
-            <a href="" class="btn">Shopee</a>
+      <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
+        <div class="column is-full-mobile is-12-tablet px-0 add-padding">
+          <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 ">
+            <div class="column is-3-mobile is-3-tablet mr-4">
+              <a href="" target="_blank">
+                <div class="wrap-button">
+                  <div class="wrap-img">
+                    <img src="./assets/images/icon-tiktok-1.png" alt="">
+                  </div>
+
+                  <div class="wrap-text">
+                    Order via Tiktok
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="column is-3-mobile is-3-tablet">
+              <a href="" target="_blank">
+                <div class="wrap-button">
+                  <div class="wrap-img"><img src="./assets/images/icon-wa-1.png" alt=""></div>
+
+                  <div class="wrap-text">
+                    Order via Whatsapp
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <!-- <div class="column is-9-mobile is-12-tablet">
+              <img src="./assets/images/bg-8.png" alt="" class="img-2">
+            </div> -->
           </div>
 
+
         </div>
-        <div class="column is-full-mobile is-12-tablet mt-6">
-          <div class="wrapper-box mb-6" v-for="item in products" :key="item.id">
-            <div class="wrap-image">
-              <div class="img-left"><img :src="item.imgLeft" alt=""></div>
-              <img :src="item.imgProductUrl" alt="" class="imgProduct">
-              <div class="img-right"><img v-bind:src="item.imgRight" alt=""></div>
-            </div>
+        <div class="column is-full-mobile is-12-tablet p-0" v-for="item in products" :key="item.id">
+          <img :src="item.imgProductUrl" alt="" class="imgProduct">
+        </div>
+        <div class="column is-12-mobile is-12-tablet pt-0 is-relative">
+          <p class="text-intro">What they say about Moell Natural Care for Babies</p>
+          <img src="./assets/images/bg-7.png" alt="" class="img-testi">
+        </div>
+        <div class="column is-12-mobile is-12-tablet">
+          <div class="divider"></div>
+          <div class="wrapper-icon">
+            <a href="" class="link" target="_blank"><img src="./assets/images/icon-tiktok-2.png" alt=""></a>
+            <a href="" class="link" target="_blank"><img src="./assets/images/icon-wa-2.png" alt=""></a>
           </div>
         </div>
       </div>
@@ -30,20 +64,26 @@
 </template>
 
 <script>
-import imageAbs from "./assets/images/crop.png"
+import bg2 from "./assets/images/bg-2.png"
+import bg3 from "./assets/images/bg-3.png"
+import bg4 from "./assets/images/bg-4.png"
+import bg5 from "./assets/images/bg-5.png"
+import bg6 from "./assets/images/bg-6.png"
+import bg7 from "./assets/images/bg-7.png"
 
 export default {
   name: "app",
   data() {
     return {
       products: [
-        { id: 1, pname: "A", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
-        { id: 2, pname: "B", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
-        { id: 3, pname: "C", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight:imageAbs },
-        { id: 4, pname: "D", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
-        { id: 5, pname: "E", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
+        { id: 1, pname: "A", imgProductUrl: bg2 },
+        { id: 2, pname: "B", imgProductUrl: bg3 },
+        { id: 3, pname: "C", imgProductUrl: bg4 },
+        { id: 4, pname: "D", imgProductUrl: bg5 },
+        { id: 5, pname: "E", imgProductUrl: bg6 },
 
       ]
     }
   }
 }</script>
+

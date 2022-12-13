@@ -90,14 +90,33 @@ button:focus-visible {
 }
  */
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Flamenco-Regular';
+  src: url('./assets/fonts/Flamenco-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   position: relative;
   margin: 0;
-  display: flex;
-
+  /* display: flex; */
+  font-family: 'Flamenco-Regular';
   width: 100%;
+  overflow: hidden;
   /* place-items: center; */
   /* overflow-y: scroll; */
+}
+
+p {
+  font-family: 'Flamenco-Regular';
+  color: #6D5A4D;
 }
 
 @media only screen and (min-width: 768px) {
@@ -107,15 +126,33 @@ body {
     max-width: 780px;
   }
 }
+
 .banner-full {
-  background-image: url("https://images.ctfassets.net/pza7rf722fz4/3KCFDxtrPuIP8c06RnDZ0n/4083c8805b3af6a5188b26cc3bafe36b/MAMA_GIGI-08__1___1_.png?w=1920&fm=webp&q=80");
+  background-image: url("./assets/images/bg-1.png");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+  height: 60rem;
+
+}
+
+.banner-full img {
+  width: 12rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.banner-full p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .wrapper-box {
   position: relative;
+  width: 100%;
+  height: 100vh;
 }
 
 .wrap-image {
@@ -132,13 +169,14 @@ body {
   width: 3rem;
   bottom: 0;
 }
- .img-left {
+
+.img-left {
   left: -7rem;
 }
 
 .img-right {
   right: -7rem;
-} 
+}
 
 .btn {
   font-size: 18px;
@@ -153,37 +191,171 @@ body {
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.5em - 1px);
- padding:1rem 2rem;
+  padding: 1rem 2rem;
   text-align: center;
   white-space: nowrap;
 }
 
-.wrap-button{
+.wrap-button {
   text-align: center;
+  background: #BF9C6E;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  transition: all 0.3s;
 }
 
-.wrap-button a{
-  margin:2rem;
+.wrap-button:hover {
+  transform: scale(1.1);
 }
 
+.wrap-button .wrap-img {
+  background: white;
+  width: 100%;
+  border-radius: 9px;
+  padding: 1rem;
+}
+
+.wrap-button .wrap-img img {
+  width: 5rem;
+  height: 6rem;
+
+  object-fit: contain;
+}
+
+.wrap-button .wrap-text {
+  padding: 0.5rem;
+  line-height: 1;
+  color: white;
+
+  font-size: 1.8rem;
+}
+
+.imgProduct {
+  width: 100%;
+}
+
+.divider {
+  height: 0.3rem;
+  width: 90%;
+  background: #FFEDDF;
+  margin: 0 auto;
+}
+
+.wrapper-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.wrapper-icon a img {
+  width: 3rem;
+  margin: 2rem;
+}
+
+.text-intro {
+  text-align: center;
+  font-size: 3rem;
+  position: absolute;
+  top: -7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  width: 80%;
+
+
+}
+
+.img-testi {
+  margin-top: 6rem;
+  padding: 0rem 4rem;
+  width: 100%;
+}
+
+.column {
+  margin-top: -0.5rem;
+}
+
+.img-2 {
+  margin-top: 2rem;
+}
+
+.add-padding {
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+img {
+  transition: all 0.3s;
+}
+
+.link:hover img {
+  transform: scale(1.1);
+}
 
 @media only screen and (max-width: 480px) {
-  .wrap-image{
+
+  .img-2 {
+    margin-top: 1rem;
+  }
+
+  .text-intro {
+    font-size: 2rem;
+    top: -3rem;
     width: 100%;
   }
-  .wrap-image .imgProduct{
-    width: 10rem;
-    display: block;
-    margin: 0 auto;
+
+  .banner-full img {
+    width: 7rem;
   }
 
+  .banner-full {
+    height: 31rem;
+  }
 
-  .img-left{
+  .banner-full p {
+    padding-bottom: 0.5rem;
+    font-size: 13px;
+  }
+
+  .wrapper-icon a img {
+    width: 2rem;
+    margin: 0rem 0.8rem;
+  }
+
+  .wrap-button .wrap-img {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .wrap-button .wrap-img img {
+    height: 2.8rem;
+    width: 4.5rem;
+  }
+
+  .wrap-button .wrap-text {
+    font-size: 1rem;
+  }
+
+  .wrap-image {
+    width: 100%;
+  }
+
+  .img-left {
     left: 2rem;
     width: 2rem;
   }
-  .img-right{
+
+  .img-right {
     right: 2rem;
     width: 2rem;
+  }
+
+  .img-testi {
+    padding: 1rem;
+  }
+
+  .divider {
+    height: 0.15rem;
   }
 }
