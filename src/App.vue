@@ -11,7 +11,7 @@
         <div class="column is-full-mobile is-12-tablet px-0 add-padding">
           <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 ">
             <div class="column is-3-mobile is-3-tablet mr-4">
-              <a href="" target="_blank">
+              <a href="https://www.tiktok.com/@moell.id?_t=8Y8h5vwYYoj&_r=1" target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img">
                     <img src="./assets/images/icon-tiktok-1.png" alt="">
@@ -52,7 +52,8 @@
         <div class="column is-12-mobile is-12-tablet">
           <div class="divider"></div>
           <div class="wrapper-icon">
-            <a href="" class="link" target="_blank"><img src="./assets/images/icon-tiktok-2.png" alt=""></a>
+            <a href="https://www.tiktok.com/@moell.id?_t=8Y8h5vwYYoj&_r=1" class="link" target="_blank"><img
+                src="./assets/images/icon-tiktok-2.png" alt=""></a>
             <a href="" class="link" target="_blank"><img src="./assets/images/icon-wa-2.png" alt=""></a>
           </div>
         </div>
