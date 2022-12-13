@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -13,9 +13,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
+} */
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
@@ -88,9 +88,102 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+ */
 
+body {
+  position: relative;
+  margin: 0;
+  display: flex;
 
-.cek{
   width: 100%;
-  background-color: red;
+  /* place-items: center; */
+  /* overflow-y: scroll; */
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    display: block;
+    margin: 0 auto;
+    max-width: 780px;
+  }
+}
+.banner-full {
+  background-image: url("https://images.ctfassets.net/pza7rf722fz4/3KCFDxtrPuIP8c06RnDZ0n/4083c8805b3af6a5188b26cc3bafe36b/MAMA_GIGI-08__1___1_.png?w=1920&fm=webp&q=80");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.wrapper-box {
+  position: relative;
+}
+
+.wrap-image {
+  margin: 0 auto;
+  width: 20rem;
+  position: relative;
+}
+
+
+
+.img-left,
+.img-right {
+  position: absolute;
+  width: 3rem;
+  bottom: 0;
+}
+ .img-left {
+  left: -7rem;
+}
+
+.img-right {
+  right: -7rem;
+} 
+
+.btn {
+  font-size: 18px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 2rem;
+  color: #fff;
+  margin-top: 1rem;
+  background: #82bb42;
+  background: linear-gradient(to top, #82bb42 0%, #a5e84e 100%);
+  width: 140px;
+  transition: all 0.3s;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+ padding:1rem 2rem;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.wrap-button{
+  text-align: center;
+}
+
+.wrap-button a{
+  margin:2rem;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .wrap-image{
+    width: 100%;
+  }
+  .wrap-image .imgProduct{
+    width: 10rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  .img-left{
+    left: 2rem;
+    width: 2rem;
+  }
+  .img-right{
+    right: 2rem;
+    width: 2rem;
+  }
 }

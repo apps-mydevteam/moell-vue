@@ -1,41 +1,49 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-<!-- <style>
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-</style> -->
+
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <section class="hero is-fullheight banner-full">
+  </section>
+  <section class="section is-medium">
+    <div class="container">
+      <div class="columns is-multiline is-mobile is-vcentered is-centered">
+        <div class="column is-full-mobile is-12-tablet mb-6">
+          <div class="wrap-button">
+            <a href="" class="btn">Tiktok</a>
+            <a href="" class="btn">Shopee</a>
+          </div>
 
-  <div class="columns is-multiline is-mobile is-vcentered is-desktop column-reverse">
-    <div class="column is-4-tablet is-full-touch ">
-      <div class="cek">cek</div>
+        </div>
+        <div class="column is-full-mobile is-12-tablet mt-6">
+          <div class="wrapper-box mb-6" v-for="item in products" :key="item.id">
+            <div class="wrap-image">
+              <div class="img-left"><img :src="item.imgLeft" alt=""></div>
+              <img :src="item.imgProductUrl" alt="" class="imgProduct">
+              <div class="img-right"><img v-bind:src="item.imgRight" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </div>
-  </div>
-
+  </section>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
+<script>
+import imageAbs from "./assets/images/crop.png"
 
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
+export default {
+  name: "app",
+  data() {
+    return {
+      products: [
+        { id: 1, pname: "A", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
+        { id: 2, pname: "B", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
+        { id: 3, pname: "C", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight:imageAbs },
+        { id: 4, pname: "D", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
+        { id: 5, pname: "E", imgProductUrl: "https://images.ctfassets.net/pza7rf722fz4/iOcbJ7S5lwsdVoRTv9D5s/4c83244cec5cc266e8784b7925daa803/cokiee.png?w=720&fm=webp&q=100", imgLeft: imageAbs, imgRight: imageAbs },
 
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+      ]
+    }
+  }
+}</script>
