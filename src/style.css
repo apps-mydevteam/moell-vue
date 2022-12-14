@@ -127,6 +127,10 @@ p {
   }
 }
 
+a {
+  color: #6D5A4D;
+}
+
 .banner-full {
   background-image: url("./assets/images/bg-1.png");
   background-repeat: no-repeat;

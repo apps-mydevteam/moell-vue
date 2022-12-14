@@ -18,7 +18,8 @@ defineProps({
         <div class="column is-full-mobile is-12-tablet px-0 add-padding">
           <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 ">
             <div class="column is-3-mobile is-3-tablet mr-4">
-              <a href="/out" target="_blank">
+              <a href="/out?url=https://shop.tiktok.com/view/product/1729574090104604743?region=ID&locale=id-ID"
+                target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img">
                     <img src="../assets/images/icon-tiktok-1.png" alt="">

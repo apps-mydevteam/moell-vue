@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          Terima kasih Mom..
+          Anda akan segera kami alihkan ke Marketplace <a href="https://moell.id/">moell.id</a>
         </div>
       </div>
     </div>

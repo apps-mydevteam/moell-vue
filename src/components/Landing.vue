@@ -18,7 +18,7 @@ defineProps({
         <div class="column is-full-mobile is-12-tablet px-0 add-padding">
           <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 ">
             <div class="column is-3-mobile is-3-tablet mr-4">
-              <a href="https://www.tiktok.com/@moell.id?_t=8Y8h5vwYYoj&_r=1" target="_blank">
+              <a href="/out" target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img">
                     <img src="../assets/images/icon-tiktok-1.png" alt="">
@@ -31,7 +31,7 @@ defineProps({
               </a>
             </div>
             <div class="column is-3-mobile is-3-tablet">
-              <a href="" target="_blank">
+              <a href="/wa" target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img"><img src="../assets/images/icon-wa-1.png" alt=""></div>
 
@@ -45,6 +45,9 @@ defineProps({
             <!-- <div class="column is-9-mobile is-12-tablet">
               <img src="../assets/images/bg-8.png" alt="" class="img-2">
             </div> -->
+            <div class="column is-9-mobile is-12-tablet">
+              <p class="add-text-natural">our natural organic product:</p>
+            </div>
           </div>
 
 
@@ -53,15 +56,15 @@ defineProps({
           <img :src="item.imgProductUrl" alt="" class="imgProduct">
         </div>
         <div class="column is-12-mobile is-12-tablet pt-0 is-relative">
-          <p class="text-intro">What they say about Moell Natural Care for Babies</p>
+          <p class="text-intro">Everyone Loves Moell</p>
+          <!-- <p class="text-intro">What they say about Moell Natural Care for Babies</p> -->
           <img src="../assets/images/bg-7.png" alt="" class="img-testi">
         </div>
         <div class="column is-12-mobile is-12-tablet">
           <div class="divider"></div>
           <div class="wrapper-icon">
-            <a href="https://www.tiktok.com/@moell.id?_t=8Y8h5vwYYoj&_r=1" class="link" target="_blank"><img
-                src="../assets/images/icon-tiktok-2.png" alt=""></a>
-            <a href="" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
+            <a href="/out" class="link" target="_blank"><img src="../assets/images/icon-tiktok-2.png" alt=""></a>
+            <a href="/wa" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
           </div>
         </div>
       </div>
