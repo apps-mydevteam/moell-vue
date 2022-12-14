@@ -38,7 +38,7 @@ export default {
     fbq('track', 'AddToCart');
 
     setTimeout(function () {
-      window.location = 'https://shop.tiktok.com/view/product/1729574090104604743?region=ID&locale=id-ID';
+      window.location = 'https://www.tiktok.com/@moell.id';
     }, 2000);
 
   },
