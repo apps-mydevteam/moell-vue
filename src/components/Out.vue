@@ -33,8 +33,7 @@ export default {
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '504625507645037');
-    fbq('init', '<?= $pixel; ?>');
+    fbq('init', '844457336851471');
     fbq('track', 'PageView');
     fbq('track', 'AddToCart');
 
