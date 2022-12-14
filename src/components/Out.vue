@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-        <div class="column">
+        <div class="column has-text-centered">
           Anda akan segera kami alihkan ke Marketplace <a href="https://moell.id/">moell.id</a>
         </div>
       </div>
@@ -36,13 +36,13 @@ fbq('track', 'AddToCart');
 
 export default {
   name: 'Out',
-  mounted() {
+  // mounted() {
 
-    setTimeout(function () {
-      window.location = 'https://www.tiktok.com/@moell.id?_t=8Y8h5vwYYoj&_r=1';
-    }, 2000);
+  //   setTimeout(function () {
+  //     window.location = 'https://www.tiktok.com/@moell.id?_t=8Y8h5vwYYoj&_r=1';
+  //   }, 2000);
 
-  },
+  // },
 };
 
 

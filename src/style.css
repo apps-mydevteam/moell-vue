@@ -110,6 +110,7 @@ body {
   font-family: 'Flamenco-Regular';
   width: 100%;
   overflow: hidden;
+  color: #6D5A4D;
   /* place-items: center; */
   /* overflow-y: scroll; */
 }
@@ -301,6 +302,31 @@ img {
   margin-top: 1.5rem;
   text-align: center;
   font-size: 2rem;
+}
+
+.grow-scale {
+  -webkit-animation-name: grow;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: grow;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.06);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media only screen and (max-width: 480px) {

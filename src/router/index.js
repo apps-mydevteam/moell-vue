@@ -14,6 +14,11 @@ const routes = [
         name: 'Landing',
         component: Landing,
     },
+        {
+        path: '/naturalorganic',
+        name: 'Landing',
+        component: Landing,
+    },
     {
         path: '/out',
         name: 'Out',

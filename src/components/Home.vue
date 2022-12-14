@@ -20,7 +20,7 @@ defineProps({
             <div class="column is-3-mobile is-3-tablet mr-4">
               <a href="/out?url=https://shop.tiktok.com/view/product/1729574090104604743?region=ID&locale=id-ID"
                 target="_blank">
-                <div class="wrap-button">
+                <div class="wrap-button grow-scale">
                   <div class="wrap-img">
                     <img src="../assets/images/icon-tiktok-1.png" alt="">
                   </div>
@@ -62,11 +62,38 @@ defineProps({
           <img src="../assets/images/bg-7.png" alt="" class="img-testi">
         </div>
         <div class="column is-12-mobile is-12-tablet">
-          <div class="divider"></div>
-          <div class="wrapper-icon">
+          <!-- <div class="divider"></div> -->
+          <div class="columns is-multiline is-mobile is-vcentered is-centered mt-5">
+            <div class="column is-3-mobile is-3-tablet mr-4">
+              <a href="/out?url=https://shop.tiktok.com/view/product/1729574090104604743?region=ID&locale=id-ID"
+                target="_blank">
+                <div class="wrap-button grow-scale">
+                  <div class="wrap-img">
+                    <img src="../assets/images/icon-tiktok-1.png" alt="">
+                  </div>
+
+                  <div class="wrap-text">
+                    Order via Tiktok
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="column is-3-mobile is-3-tablet">
+              <a href="/wa" target="_blank">
+                <div class="wrap-button">
+                  <div class="wrap-img"><img src="../assets/images/icon-wa-1.png" alt=""></div>
+
+                  <div class="wrap-text">
+                    Order via Whatsapp
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- <div class="wrapper-icon">
             <a href="/out" class="link" target="_blank"><img src="../assets/images/icon-tiktok-2.png" alt=""></a>
             <a href="/wa" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
-          </div>
+          </div> -->
         </div>
       </div>
 
