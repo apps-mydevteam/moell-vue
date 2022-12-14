@@ -2,7 +2,7 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-        <div class="column has-text-centered">
+        <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile">
           Anda akan segera kami alihkan ke Marketplace <a href="https://moell.id/">moell.id</a>
         </div>
       </div>

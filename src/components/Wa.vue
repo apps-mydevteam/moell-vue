@@ -5,7 +5,7 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-        <div class="column">
+        <div class="column is-size-2-tablet  is-size-3-mobile has-text-centered">
           Terima kasih Mom, Anda akan segera dialihkan ke whatsapp.
         </div>
       </div>
