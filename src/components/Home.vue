@@ -45,6 +45,9 @@ defineProps({
             <!-- <div class="column is-9-mobile is-12-tablet">
               <img src="../assets/images/bg-8.png" alt="" class="img-2">
             </div> -->
+            <div class="column is-9-mobile is-12-tablet">
+              <p class="add-text-natural">our natural organic product:</p>
+            </div>
           </div>
 
 
