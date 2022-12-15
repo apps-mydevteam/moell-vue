@@ -38,7 +38,7 @@ export default {
     fbq('track', 'AddToCart');
 
     setTimeout(function () {
-      window.location = 'https://www.tiktok.com/@moell.id';
+      window.location = 'https://vt.tiktok.com/ZS8FAHmHs/';
     }, 2000);
 
   },
