@@ -1,0 +1,19 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+    <loc>https://moell.id/</loc>
+    <priority>1.0</priority>
+    </url>
+
+    <url>
+    <loc>https://moell.id/naturalcareforbabies</loc>
+    <priority>0.2</priority>
+    <changefreq>daily</changefreq>
+    </url>
+
+    <url>
+    <loc>https://moell.id/naturalorganic</loc>
+    <priority>0.2</priority>
+    <changefreq>daily</changefreq>
+    </url>
+    
+</urlset>

@@ -3,6 +3,8 @@ import Home from '/src/components/Home.vue'
 import Landing from '/src/components/Landing.vue'
 import Out from '/src/components/Out.vue'
 import Wa from '/src/components/Wa.vue'
+import Sitemap from 'sitemap.xml'
+
 const routes = [
     {
         path: '/',
@@ -11,7 +13,7 @@ const routes = [
     },
     {
         path: '/naturalcareforbabies',
-        name: 'Landing',
+        name: 'Natural',
         component: Landing,
     },
         {
@@ -28,6 +30,11 @@ const routes = [
         path: '/wa',
         name: 'Wa',
         component: Wa,
+    },
+        {
+        path: '/sitemap.xml',
+        name: 'Sitemap',
+        component: Sitemap,
     },
 ]
 
