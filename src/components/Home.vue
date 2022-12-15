@@ -18,7 +18,7 @@ defineProps({
         <div class="column is-full-mobile is-12-tablet px-0 add-padding">
           <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 ">
             <div class="column is-3-mobile is-3-tablet mr-4">
-              <a href="/out?url=https://shop.tiktok.com/view/product/1729574090104604743?region=ID&locale=id-ID"
+              <a href="/out?url=https://vt.tiktok.com/ZS8FAHmHs/"
                 target="_blank">
                 <div class="wrap-button grow-scale">
                   <div class="wrap-img">
@@ -65,7 +65,7 @@ defineProps({
           <!-- <div class="divider"></div> -->
           <div class="columns is-multiline is-mobile is-vcentered is-centered mt-5">
              <div class="column is-3-mobile is-3-tablet mr-4">
-              <a href="/out?url=https://shop.tiktok.com/view/product/1729574090104604743?region=ID&locale=id-ID"
+              <a href="/out?url=https://vt.tiktok.com/ZS8FAHmHs/"
                 target="_blank">
                 <div class="wrap-button grow-scale">
                   <div class="wrap-img">
