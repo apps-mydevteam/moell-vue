@@ -43,7 +43,7 @@ defineProps({
               </a>
             </div>
             <div class="column is-3-mobile is-3-tablet">
-              <a href="/shopee" target="_blank">
+              <a href="/out?url=shopee" target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
@@ -101,7 +101,7 @@ defineProps({
               </a>
             </div>
             <div class="column is-3-mobile is-3-tablet">
-              <a href="/shopee" target="_blank">
+              <a href="/out?url=shopee" target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
