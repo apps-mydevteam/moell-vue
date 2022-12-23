@@ -2,7 +2,11 @@
   <section class="section">
     <div class="container">
       <div class="columns">
-        <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile">
+        <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile"
+          v-if="this.$route.query.url === 'shopee'">
+          Anda akan segera kami alihkan ke Shopee
+        </div>
+        <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile" v-else>
           Anda akan segera kami alihkan ke Marketplace <a href="https://moell.id/">moell.id</a>
         </div>
       </div>
@@ -36,11 +40,15 @@ export default {
     fbq('init', '844457336851471');
     fbq('track', 'PageView');
     fbq('track', 'AddToCart');
-
-    setTimeout(function () {
-      window.location = 'https://vt.tiktok.com/ZS8FAHmHs/';
-    }, 2000);
-
+    if (this.$route.query.url == 'shopee') {
+      setTimeout(function () {
+        window.location = "https://shopee.co.id/moell.id";
+      }, 2000);
+    } else {
+      setTimeout(function () {
+        window.location = 'https://www.tiktok.com/@moell.id';
+      }, 2000);
+    }
   },
 };
 
