@@ -3,6 +3,8 @@ import Home from '/src/components/Home.vue'
 import Landing from '/src/components/Landing.vue'
 import Out from '/src/components/Out.vue'
 import Wa from '/src/components/Wa.vue'
+import Shopee from '/src/components/Shopee.vue'
+
 
 const routes = [
     {
@@ -29,6 +31,11 @@ const routes = [
         path: '/wa',
         name: 'Wa',
         component: Wa,
+    },
+    {
+        path: '/shopee',
+        name: 'Shopee',
+        component: Shopee,
     }
 ]
 
