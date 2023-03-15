@@ -402,16 +402,21 @@ img {
     width: 100%;
   }
 
-  .banner-full img {
+  .banner-full img,
+  .banner-full-v2 img {
     width: 7rem;
   }
 
   .banner-full {
-    height: 89vh;
-    /* height: 31rem; */
+    height: 31rem;
   }
 
-  .banner-full p {
+  .banner-full-v2 {
+    height: 89vh;
+  }
+
+  .banner-full p,
+  .banner-full-v2 p {
     padding-bottom: 0.5rem;
     font-size: 13px;
   }
