@@ -166,8 +166,7 @@ a {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  height: 78rem;
-  /* height: 60rem; */
+  height: 60rem;
 
 }
 
@@ -176,7 +175,7 @@ a {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  height: 78rem;
+  height: 76rem;
   /* height: 60rem; */
 
 }
@@ -412,7 +411,7 @@ img {
   }
 
   .banner-full-v2 {
-    height: 89vh;
+    height: 80vh;
   }
 
   .banner-full p,
