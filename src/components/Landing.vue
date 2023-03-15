@@ -1,10 +1,8 @@
 <script setup>
 import { ref } from 'vue'
-
 defineProps({
   msg: String,
 })
-
 </script>
 
 <template>
@@ -48,15 +46,15 @@ defineProps({
                   <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
                   <div class="wrap-text">
-                    Order via Shopee
-                  </div>
+                  Order via Shopee
+                </div>
                 </div>
               </a>
             </div>
 
             <!-- <div class="column is-9-mobile is-12-tablet">
-              <img src="../assets/images/bg-8.png" alt="" class="img-2">
-            </div> -->
+                  <img src="../assets/images/bg-8.png" alt="" class="img-2">
+                </div> -->
             <div class="column is-9-mobile is-12-tablet">
               <p class="add-text-natural">our natural organic product:</p>
             </div>
@@ -106,16 +104,16 @@ defineProps({
                   <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
                   <div class="wrap-text">
-                    Order via Shopee
-                  </div>
+                  Order via Shopee
                 </div>
+              </div>
               </a>
             </div>
           </div>
           <!-- <div class="wrapper-icon">
-            <a href="/out" class="link" target="_blank"><img src="../assets/images/icon-tiktok-2.png" alt=""></a>
-            <a href="/wa" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
-          </div> -->
+                <a href="/out" class="link" target="_blank"><img src="../assets/images/icon-tiktok-2.png" alt=""></a>
+                <a href="/wa" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
+              </div> -->
         </div>
       </div>
 
@@ -130,7 +128,6 @@ import bg3 from "../assets/images/bg-3.png"
 import bg4 from "../assets/images/bg-4.png"
 import bg5 from "../assets/images/bg-5.png"
 import bg6 from "../assets/images/bg-6.png"
-
 export default {
   name: "app",
   data() {
@@ -141,12 +138,11 @@ export default {
         { id: 3, pname: "C", imgProductUrl: bg4 },
         { id: 4, pname: "D", imgProductUrl: bg5 },
         { id: 5, pname: "E", imgProductUrl: bg6 },
-
       ]
     }
   },
-
-}</script>
+}
+</script>
 
 <style scoped>
 .read-the-docs {

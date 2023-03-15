@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '/src/components/Home.vue'
+import Preview from '/src/components/Preview.vue'
 import Landing from '/src/components/Landing.vue'
 import Out from '/src/components/Out.vue'
 import Wa from '/src/components/Wa.vue'
@@ -17,10 +18,15 @@ const routes = [
         name: 'Natural',
         component: Landing,
     },
-        {
+    {
         path: '/naturalorganic',
         name: 'Landing',
         component: Landing,
+    },
+    {
+        path: '/preview',
+        name: 'Preview',
+        component: Preview,
     },
     {
         path: '/out',

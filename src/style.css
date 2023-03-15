@@ -103,6 +103,20 @@ body {
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('./assets/fonts/Poppins-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('./assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -118,6 +132,21 @@ body {
 p {
   font-family: 'Flamenco-Regular';
   color: #6D5A4D;
+}
+
+.subtitle {
+  font-family: 'Poppins-Regular';
+  font-size: 1.5rem;
+  color: #4d4341;
+}
+
+.font-poppins-head {
+  font-family: 'Poppins-Bold';
+  font-size: 2rem;
+}
+
+.add-padding-top {
+  padding-top: 5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -137,17 +166,30 @@ a {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  height: 60rem;
+  height: 78rem;
+  /* height: 60rem; */
 
 }
 
-.banner-full img {
+.banner-full-v2 {
+  background-image: url("./assets/images/bg-1-2.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 78rem;
+  /* height: 60rem; */
+
+}
+
+.banner-full img,
+.banner-full-v2 img {
   width: 12rem;
   display: block;
   margin: 0 auto;
 }
 
-.banner-full p {
+.banner-full p,
+.banner-full-v2 p {
   text-align: center;
   font-weight: 400;
   font-size: 1.5rem;
@@ -242,7 +284,8 @@ a {
 .divider {
   height: 0.3rem;
   width: 90%;
-  background: #FFEDDF;
+  /* background: #FFEDDF; */
+  background: #9b5b4d;
   margin: 0 auto;
 }
 
@@ -272,7 +315,7 @@ a {
 }
 
 .img-testi {
-  margin-top: -2rem;
+  margin-top: 4rem;
   padding: 0rem 4rem;
   width: 100%;
 }
@@ -330,6 +373,19 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .font-poppins-head {
+    font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .divider.add-height {
+    height: 0.18rem;
+  }
+
   .add-text-natural {
     margin-top: 1.5rem;
     text-align: center;
@@ -351,7 +407,8 @@ img {
   }
 
   .banner-full {
-    height: 31rem;
+    height: 89vh;
+    /* height: 31rem; */
   }
 
   .banner-full p {
