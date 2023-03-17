@@ -41,7 +41,9 @@ defineProps({
               </a>
             </div>
             <div class="column is-3-mobile is-3-tablet">
-              <a href="/out?url=https://shopee.co.id/moell.id" target="_blank">
+              <!-- <a href="/out?url=https://shopee.co.id/moell.id" target="_blank"> -->
+              <a href="/out?url=https://shope.ee/7KQ5ZhUvAG" target="_blank">
+
                 <div class="wrap-button">
                   <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
@@ -53,8 +55,8 @@ defineProps({
             </div>
 
             <!-- <div class="column is-9-mobile is-12-tablet">
-                    <img src="../assets/images/bg-8.png" alt="" class="img-2">
-                  </div> -->
+                      <img src="../assets/images/bg-8.png" alt="" class="img-2">
+                    </div> -->
             <div class="column is-9-mobile is-12-tablet">
               <p class="add-text-natural">our natural organic product:</p>
             </div>
@@ -99,7 +101,7 @@ defineProps({
               </a>
             </div>
             <div class="column is-3-mobile is-3-tablet">
-              <a href="/out?url=https://shopee.co.id/moell.id" target="_blank">
+              <a href="/out?url=https://shope.ee/7KQ5ZhUvAG" target="_blank">
                 <div class="wrap-button">
                   <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
@@ -111,9 +113,9 @@ defineProps({
             </div>
           </div>
           <!-- <div class="wrapper-icon">
-                  <a href="/out" class="link" target="_blank"><img src="../assets/images/icon-tiktok-2.png" alt=""></a>
-                  <a href="/wa" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
-                </div> -->
+                    <a href="/out" class="link" target="_blank"><img src="../assets/images/icon-tiktok-2.png" alt=""></a>
+                    <a href="/wa" class="link" target="_blank"><img src="../assets/images/icon-wa-2.png" alt=""></a>
+                  </div> -->
         </div>
       </div>
 

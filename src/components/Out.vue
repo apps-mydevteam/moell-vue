@@ -3,7 +3,7 @@
     <div class="container">
       <div class="columns">
         <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile"
-          v-if="this.$route.query.url === 'https://shopee.co.id/moell.id'">
+          v-if="this.$route.query.url === 'https://shope.ee/7KQ5ZhUvAG'">
           Anda akan segera kami alihkan ke Shopee
         </div>
         <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile" v-else>
@@ -40,7 +40,7 @@ export default {
     fbq('init', '844457336851471');
     fbq('track', 'PageView');
     fbq('track', 'AddToCart');
-    if (this.$route.query.url == 'https://shopee.co.id/moell.id') {
+    if (this.$route.query.url == 'https://shope.ee/7KQ5ZhUvAG') {
       setTimeout(function () {
         window.location = "https://shopee.co.id/moell.id";
       }, 2000);

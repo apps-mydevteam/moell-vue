@@ -32,7 +32,7 @@ defineProps({
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 is-justify-content-flex-start">
                 <div class="column is-4-mobile is-4-tablet">
-                    <a href="/out?url=https://shopee.co.id/moell.id" target="_blank">
+                    <a href="/out?url=https://shope.ee/7KQ5ZhUvAG" target="_blank">
                         <img src="../assets/images/button_shopee.png" alt="">
                     </a>
                 </div>
@@ -102,7 +102,7 @@ defineProps({
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 is-justify-content-flex-start">
                 <div class="column is-4-mobile is-4-tablet">
-                    <a href="/out?url=https://shopee.co.id/moell.id" target="_blank">
+                    <a href="/out?url=https://shope.ee/7KQ5ZhUvAG" target="_blank">
 
                         <img src="../assets/images/button_shopee.png" alt="">
 
