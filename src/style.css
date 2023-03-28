@@ -124,14 +124,15 @@ body {
   font-family: 'Flamenco-Regular';
   width: 100%;
   overflow: hidden;
-  color: #6D5A4D;
+  /* color: #6D5A4D; */
+  color: #4d4341;
   /* place-items: center; */
   /* overflow-y: scroll; */
 }
 
 p {
   font-family: 'Flamenco-Regular';
-  color: #6D5A4D;
+  color: #4d4341;
 }
 
 .subtitle {
@@ -158,7 +159,7 @@ p {
 }
 
 a {
-  color: #6D5A4D;
+  color: #4d4341;
 }
 
 .banner-full {
@@ -277,14 +278,16 @@ a {
 }
 
 .imgProduct {
-  width: 100%;
+  width: 85%;
+  margin: 0 auto;
+  display: block;
 }
 
 .divider {
   height: 0.3rem;
   width: 90%;
   /* background: #FFEDDF; */
-  background: #9b5b4d;
+  background: #4d4341;
   margin: 0 auto;
 }
 
@@ -372,6 +375,9 @@ img {
 }
 
 @media only screen and (max-width: 480px) {
+  .imgProduct {
+    width: 93%;
+  }
 
   .font-poppins-head {
     font-size: 1.2rem;
