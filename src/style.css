@@ -376,7 +376,7 @@ img {
 
 @media only screen and (max-width: 480px) {
   .imgProduct {
-    width: 93%;
+    width: 100%;
   }
 
   .font-poppins-head {
