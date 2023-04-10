@@ -6,22 +6,21 @@ import Out from '/src/components/Out.vue'
 import Wa from '/src/components/Wa.vue'
 import Shopee from '/src/components/Shopee.vue'
 
-
 const routes = [
     {
         path: '/',
         name: 'Home',
-        component: Home,
+        component: Preview,
     },
     {
         path: '/naturalcareforbabies',
         name: 'Natural',
-        component: Landing,
+        component: Preview,
     },
     {
         path: '/naturalorganic',
         name: 'Landing',
-        component: Landing,
+        component: Preview,
     },
     {
         path: '/preview',
