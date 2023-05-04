@@ -40,9 +40,9 @@ export default {
     fbq('init', '844457336851471');
     fbq('track', 'PageView');
     fbq('track', 'AddToCart');
-    if (this.$route.query.url == 'https://shope.ee/7KQ5ZhUvAG') {
+    if (this.$route.query.url == 'https://shope.ee/9zS6s44aVE') {
       setTimeout(function () {
-        window.location = "https://shopee.co.id/moell.id";
+        window.location = "https://shope.ee/9zS6s44aVE";
       }, 2000);
     } else {
       setTimeout(function () {
