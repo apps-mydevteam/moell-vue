@@ -5,6 +5,7 @@ import Landing from '/src/components/Landing.vue'
 import Out from '/src/components/Out.vue'
 import Wa from '/src/components/Wa.vue'
 import Shopee from '/src/components/Shopee.vue'
+import Lazada from '/src/components/Lazada.vue'
 
 const routes = [
     {
@@ -41,6 +42,11 @@ const routes = [
         path: '/shopee',
         name: 'Shopee',
         component: Shopee,
+    },
+        {
+        path: '/lazada',
+        name: 'Lazada',
+        component: Lazada,
     }
 ]
 

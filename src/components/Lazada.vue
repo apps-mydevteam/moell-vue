@@ -3,7 +3,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-size-2-tablet  is-size-3-mobile has-text-centered">
-                    Terima kasih Mom, Anda akan segera dialihkan ke Shopee.
+                    Terima kasih Mom, Anda akan segera dialihkan ke Lazada.
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@ export default {
         fbq('track', 'AddToCart');
 
         setTimeout(function () {
-            window.location = "https://shope.ee/5pgIraLlWJ";
+            window.location = "https://s.lazada.co.id/l.1Lx8";
         }, 2000);
 
     }
