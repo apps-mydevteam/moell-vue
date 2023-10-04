@@ -19,7 +19,7 @@ defineProps({
                     <div class="divider"></div>
                 </div>
                 <div class="column is-6-mobile is-4-tablet has-text-centered">
-                    <h2 class="font-poppins-head">Order Via</h2>
+                    <h2 class="font-poppins-head">ORDER VIA</h2>
                 </div>
                 <div class="column is-3-mobile is-4-tablet pr-0">
                     <div class="divider"></div>
@@ -55,7 +55,7 @@ defineProps({
         </div>
     </section>
 
-    <section class="section is-medium px-5 py-0 is-relative">
+    <section class="section is-medium px-5 py-0 is-relative" style="display:none;">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 is-justify-content-flex-start">
                 <div class="column is-2-mobile is-3-tablet pl-0">
