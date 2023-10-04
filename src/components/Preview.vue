@@ -28,7 +28,7 @@ defineProps({
         </div>
     </section>
 
-    <section class="section is-medium py-6 is-relative px-3">
+    <section class="section is-medium pt-6 is-relative px-3 pb-0">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                 <div class="column is-12-mobile is-8-tablet has-text-centered px-0">
