@@ -31,25 +31,29 @@ defineProps({
     <section class="section is-medium py-6 is-relative px-3">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
-                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/wa" target="_blank">
-                        <img src="../assets/images/button_whatsapp.png" alt="">
-                    </a>
-                </div>
-                <div class="column is-6-mobile is-3-tablet px-0">
-                    <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
-                        <img src="../assets/images/button_shopee.png" alt="">
-                    </a>
-                </div>
-                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
-                        <img src="../assets/images/button_tokped.png" alt="">
-                    </a>
-                </div>
-                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/lazada" target="_blank">
-                        <img src="../assets/images/button-lazada.png" alt="">
-                    </a>
+                <div class="column is-12-mobile is-8-tablet has-text-centered px-0">
+                    <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
+                        <div class="column is-6-mobile is-6-tablet has-text-centered px-0">
+                            <a href="/wa" target="_blank">
+                                <img src="../assets/images/button_whatsapp.png" alt="">
+                            </a>
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet px-0">
+                            <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
+                                <img src="../assets/images/button_shopee.png" alt="">
+                            </a>
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet has-text-centered px-0">
+                            <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
+                                <img src="../assets/images/button_tokped.png" alt="">
+                            </a>
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet has-text-centered px-0">
+                            <a href="/lazada" target="_blank">
+                                <img src="../assets/images/button-lazada.png" alt="">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -105,25 +109,29 @@ defineProps({
     <section class="section is-medium py-6 is-relative px-3">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
-                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/wa" target="_blank">
-                        <img src="../assets/images/button_whatsapp.png" alt="">
-                    </a>
-                </div>
-                <div class="column is-6-mobile is-3-tablet px-0">
-                    <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
-                        <img src="../assets/images/button_shopee.png" alt="">
-                    </a>
-                </div>
-                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
-                        <img src="../assets/images/button_tokped.png" alt="">
-                    </a>
-                </div>
-                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/lazada" target="_blank">
-                        <img src="../assets/images/button-lazada.png" alt="">
-                    </a>
+                <div class="column is-12-mobile is-8-tablet has-text-centered px-0">
+                    <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
+                        <div class="column is-6-mobile is-6-tablet has-text-centered px-0">
+                            <a href="/wa" target="_blank">
+                                <img src="../assets/images/button_whatsapp.png" alt="">
+                            </a>
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet px-0">
+                            <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
+                                <img src="../assets/images/button_shopee.png" alt="">
+                            </a>
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet has-text-centered px-0">
+                            <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
+                                <img src="../assets/images/button_tokped.png" alt="">
+                            </a>
+                        </div>
+                        <div class="column is-6-mobile is-6-tablet has-text-centered px-0">
+                            <a href="/lazada" target="_blank">
+                                <img src="../assets/images/button-lazada.png" alt="">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
