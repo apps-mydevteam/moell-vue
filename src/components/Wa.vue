@@ -11,7 +11,6 @@
       </div>
     </div>
   </section>
-
 </template>
 
 <script>
@@ -33,11 +32,12 @@ export default {
     fbq('track', 'PageView');
     fbq('track', 'Lead');
 
-    let number = ['6281328309550', '6289699022720'];
+    let number = ['6285851669254'];
     var getnumber = number[Math.floor(Math.random() * number.length)];
     setTimeout(function () {
       window.location = "https://wa.me/" + getnumber + "?text=Hai mom, saya mau order produk Moell";
     }, 2000);
 
   }
-}</script>
+}
+</script>

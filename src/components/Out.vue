@@ -40,13 +40,13 @@ export default {
     fbq('init', '844457336851471');
     fbq('track', 'PageView');
     fbq('track', 'AddToCart');
-    if (this.$route.query.url == 'https://shope.ee/9zS6s44aVE') {
+    if (this.$route.query.url == 'https://shope.ee/9KFILGsQWp') {
       setTimeout(function () {
-        window.location = "https://shope.ee/9zS6s44aVE";
+        window.location = "https://shope.ee/9KFILGsQWp";
       }, 2000);
     } else {
       setTimeout(function () {
-        window.location = 'https://www.tokopedia.com/moellofficial?source=universe&st=product';
+        window.location = 'https://www.tokopedia.link/qv1gD0tjBCb';
       }, 2000);
     }
   },

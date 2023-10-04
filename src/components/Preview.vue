@@ -37,12 +37,12 @@ defineProps({
                     </a>
                 </div>
                 <div class="column is-6-mobile is-3-tablet px-0">
-                    <a href="/out?url=https://shope.ee/9zS6s44aVE" target="_blank">
+                    <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
                         <img src="../assets/images/button_shopee.png" alt="">
                     </a>
                 </div>
                 <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/out?url=https://www.tokopedia.com/moellofficial?source=universe&st=product" target="_blank">
+                    <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
                         <img src="../assets/images/button_tokped.png" alt="">
                     </a>
                 </div>
@@ -111,12 +111,12 @@ defineProps({
                     </a>
                 </div>
                 <div class="column is-6-mobile is-3-tablet px-0">
-                    <a href="/out?url=https://shope.ee/9zS6s44aVE" target="_blank">
+                    <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
                         <img src="../assets/images/button_shopee.png" alt="">
                     </a>
                 </div>
                 <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
-                    <a href="/out?url=https://www.tokopedia.com/moellofficial?source=universe&st=product" target="_blank">
+                    <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
                         <img src="../assets/images/button_tokped.png" alt="">
                     </a>
                 </div>

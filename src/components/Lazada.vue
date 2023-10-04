@@ -36,7 +36,7 @@ export default {
         fbq('track', 'AddToCart');
 
         setTimeout(function () {
-            window.location = "https://s.lazada.co.id/l.1Lx8";
+            window.location = "https://s.lazada.co.id/l.1INV";
         }, 2000);
 
     }
