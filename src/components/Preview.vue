@@ -31,22 +31,22 @@ defineProps({
     <section class="section is-medium py-6 is-relative px-3">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
-                <div class="column is-4-mobile is-3-tablet has-text-centered px-0">
+                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
                     <a href="/wa" target="_blank">
                         <img src="../assets/images/button_whatsapp.png" alt="">
                     </a>
                 </div>
-                <div class="column is-4-mobile is-3-tablet px-0">
+                <div class="column is-6-mobile is-3-tablet px-0">
                     <a href="/out?url=https://shope.ee/9zS6s44aVE" target="_blank">
                         <img src="../assets/images/button_shopee.png" alt="">
                     </a>
                 </div>
-                <div class="column is-4-mobile is-3-tablet has-text-centered px-0">
+                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
                     <a href="/out?url=https://www.tokopedia.com/moellofficial?source=universe&st=product" target="_blank">
                         <img src="../assets/images/button_tokped.png" alt="">
                     </a>
                 </div>
-                <div class="column is-4-mobile is-3-tablet has-text-centered px-0">
+                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
                     <a href="/lazada" target="_blank">
                         <img src="../assets/images/button-lazada.png" alt="">
                     </a>
@@ -105,22 +105,22 @@ defineProps({
     <section class="section is-medium py-6 is-relative px-3">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
-                <div class="column is-4-mobile is-3-tablet has-text-centered px-0">
+                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
                     <a href="/wa" target="_blank">
                         <img src="../assets/images/button_whatsapp.png" alt="">
                     </a>
                 </div>
-                <div class="column is-4-mobile is-3-tablet px-0">
+                <div class="column is-6-mobile is-3-tablet px-0">
                     <a href="/out?url=https://shope.ee/9zS6s44aVE" target="_blank">
                         <img src="../assets/images/button_shopee.png" alt="">
                     </a>
                 </div>
-                <div class="column is-4-mobile is-3-tablet has-text-centered px-0">
+                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
                     <a href="/out?url=https://www.tokopedia.com/moellofficial?source=universe&st=product" target="_blank">
                         <img src="../assets/images/button_tokped.png" alt="">
                     </a>
                 </div>
-                <div class="column is-4-mobile is-3-tablet has-text-centered px-0">
+                <div class="column is-6-mobile is-3-tablet has-text-centered px-0">
                     <a href="/lazada" target="_blank">
                         <img src="../assets/images/button-lazada.png" alt="">
                     </a>
