@@ -60,7 +60,7 @@ defineProps({
                                 <div class="wrap-button">
                                     <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
-                                <div class="wrap-text">
+                                    <div class="wrap-text">
                                         Order via Shopee
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ defineProps({
                 <div class="column is-12-mobile is-12-tablet pt-0 is-relative">
                     <p class="text-intro">Everyone Loves Moell</p>
                     <!-- <p class="text-intro">What they say about Moell Natural Care for Babies</p> -->
-                    <img src="../assets/images/bg-7.png" alt="" class="img-testi">
+                    <img src="../assets/images/bg-7.png" alt="" class="img-testi p-0">
                 </div>
                 <div class="column is-12-mobile is-12-tablet">
                     <!-- <div class="divider"></div> -->
@@ -118,8 +118,8 @@ defineProps({
                                 <div class="wrap-button">
                                     <div class="wrap-img"><img src="../assets/images/shopee.png" alt=""></div>
 
-                                <div class="wrap-text">
-                                    Order via Shopee
+                                    <div class="wrap-text">
+                                        Order via Shopee
                                     </div>
                                 </div>
                             </a>
