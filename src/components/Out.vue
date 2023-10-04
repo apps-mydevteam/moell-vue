@@ -46,7 +46,7 @@ export default {
       }, 2000);
     } else {
       setTimeout(function () {
-        window.location = 'https://www.tiktok.com/@moell.id';
+        window.location = 'https://www.tokopedia.com/moellofficial?source=universe&st=product';
       }, 2000);
     }
   },
