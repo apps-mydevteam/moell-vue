@@ -96,7 +96,7 @@ defineProps({
                     </div>
                 </div>
                 <div class="column is-12-mobile is-12-tablet pt-0 is-relative">
-                    <img src="../assets/images/bg-10.png" alt="" class="img-testi p-0">
+                    <img src="../assets/images/bg-10.png" alt="" class="img-testi px-0">
                 </div>
             </div>
         </div>
