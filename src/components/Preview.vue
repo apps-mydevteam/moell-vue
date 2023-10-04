@@ -14,7 +14,7 @@ defineProps({
     </section>
     <section class="section is-medium px-5 pb-0 is-relative">
         <div class="container">
-            <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 is-justify-content-flex-start">
+            <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 is-centered">
                 <div class="column is-3-mobile is-3-tablet pl-0">
                     <div class="divider"></div>
                 </div>
@@ -61,7 +61,7 @@ defineProps({
 
     <section class="section is-medium px-5 py-0 is-relative" style="display:none;">
         <div class="container">
-            <div class="columns is-multiline is-mobile is-vcentered is-centered px-0 is-justify-content-flex-start">
+            <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                 <div class="column is-2-mobile is-3-tablet pl-0">
                     <div class="divider add-height"></div>
                 </div>
