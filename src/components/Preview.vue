@@ -46,7 +46,7 @@ defineProps({
                     </div>
                     <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
-                            <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
+                            <a href="/out?url=https://tokopedia.link/sAfn7lIkFDb" target="_blank">
                                 <img src="../assets/images/button_tokped.png" alt="">
                             </a>
                         </div>
@@ -81,7 +81,7 @@ defineProps({
             </div>
         </div>
     </section>
-    <section class="section is-medium px-0 pb-5 is-relative pt-6">
+    <section class="section is-medium px-0 pb-0 is-relative pt-6 ">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
 
@@ -101,7 +101,7 @@ defineProps({
                         </div>
                     </div>
                 </div>
-                <div class="column is-12-mobile is-12-tablet pt-0 is-relative">
+                <div class="column is-12-mobile is-12-tablet pt-0 is-relative pb-0">
                     <img src="../assets/images/bg-10.png" alt="" class="img-testi px-0">
                 </div>
             </div>
@@ -126,7 +126,7 @@ defineProps({
                     </div>
                     <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
-                            <a href="/out?url=https://www.tokopedia.link/qv1gD0tjBCb" target="_blank">
+                            <a href="/out?url=https://tokopedia.link/sAfn7lIkFDb" target="_blank">
                                 <img src="../assets/images/button_tokped.png" alt="">
                             </a>
                         </div>
