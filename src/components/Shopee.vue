@@ -36,7 +36,7 @@ export default {
         fbq('track', 'AddToCart');
 
         setTimeout(function () {
-            window.location = "https://shope.ee/5pgIraLlWJ";
+            window.location = "https://shope.ee/9KFILGsQWp";
         }, 2000);
 
     }

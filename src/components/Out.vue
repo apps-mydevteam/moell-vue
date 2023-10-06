@@ -3,8 +3,8 @@
     <div class="container">
       <div class="columns">
         <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile"
-          v-if="this.$route.query.url === 'https://shope.ee/7KQ5ZhUvAG'">
-          Anda akan segera kami alihkan ke Shopee
+          v-if="this.$route.query.url === 'https://tokopedia.link/sAfn7lIkFDb'">
+          Anda akan segera kami alihkan ke Tokopedia
         </div>
         <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile" v-else>
           Anda akan segera kami alihkan ke Marketplace <a href="https://moell.id/">moell.id</a>
@@ -40,15 +40,12 @@ export default {
     fbq('init', '844457336851471');
     fbq('track', 'PageView');
     fbq('track', 'AddToCart');
-    if (this.$route.query.url == 'https://shope.ee/9KFILGsQWp') {
-      setTimeout(function () {
-        window.location = "https://shope.ee/9KFILGsQWp";
-      }, 2000);
-    } else {
-      setTimeout(function () {
-        window.location = 'https://www.tokopedia.link/qv1gD0tjBCb';
-      }, 2000);
-    }
+
+
+    setTimeout(function () {
+      window.location = 'https://tokopedia.link/sAfn7lIkFDb';
+    }, 2000);
+
   },
 };
 

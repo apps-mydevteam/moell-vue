@@ -39,7 +39,7 @@ defineProps({
                             </a>
                         </div>
                         <div class="column is-4-mobile is-6-tablet px-0">
-                            <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
+                            <a href="/shopee" target="_blank">
                                 <img src="../assets/images/button_shopee.png" alt="">
                             </a>
                         </div>
@@ -119,7 +119,7 @@ defineProps({
                             </a>
                         </div>
                         <div class="column is-4-mobile is-6-tablet px-0">
-                            <a href="/out?url=https://shope.ee/9KFILGsQWp" target="_blank">
+                            <a href="/shopee" target="_blank">
                                 <img src="../assets/images/button_shopee.png" alt="">
                             </a>
                         </div>
