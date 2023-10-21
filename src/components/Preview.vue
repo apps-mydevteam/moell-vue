@@ -83,7 +83,7 @@ defineProps({
             </div>
         </div>
     </section>
-    <section class="section is-medium px-0 pb-0 is-relative pt-6 ">
+    <section class="section is-medium px-0 pb-0 is-relative pt-4 ">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
 
