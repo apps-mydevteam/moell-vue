@@ -60,7 +60,9 @@ defineProps({
             </div>
         </div>
     </section>
-
+    <section class="section is-medium px-5 py-0 is-relative" style="display:none;">
+        <img src="../assets/images/bg-richard.png" class="bg-img">
+    </section>
     <section class="section is-medium px-5 py-0 is-relative" style="display:none;">
         <div class="container">
             <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
