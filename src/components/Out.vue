@@ -3,11 +3,13 @@
     <div class="container">
       <div class="columns">
         <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile"
-          v-if="this.$route.query.url === 'https://tokopedia.link/sAfn7lIkFDb'">
-          Anda akan segera kami alihkan ke Tokopedia
+          v-if="this.$route.query.url === 'https://www.tiktok.com/@moell.id'">
+          Anda akan segera kami alihkan ke Tiktok Shop
+
+
         </div>
         <div class="column has-text-centered is-size-2-tablet  is-size-3-mobile" v-else>
-          Anda akan segera kami alihkan ke Marketplace <a href="https://moell.id/">moell.id</a>
+          Anda akan segera kami alihkan ke Tiktok Shop
         </div>
       </div>
     </div>
@@ -43,7 +45,8 @@ export default {
 
 
     setTimeout(function () {
-      window.location = 'https://tokopedia.link/sAfn7lIkFDb';
+      window.location = 'https://www.tiktok.com/@moell.id';
+      // window.location = 'https://tokopedia.link/sAfn7lIkFDb';
     }, 2000);
 
   },

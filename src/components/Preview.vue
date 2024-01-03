@@ -34,8 +34,8 @@ defineProps({
                 <div class="column is-12-mobile is-8-tablet has-text-centered px-0">
                     <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
-                            <a href="/wa" target="_blank">
-                                <img src="../assets/images/button_whatsapp.png" alt="">
+                            <a href="/out?url=https://www.tiktok.com/@moell.id" target="_blank">
+                                <img src="../assets/images/button_tiktok.png" alt="">
                             </a>
                         </div>
                         <div class="column is-4-mobile is-6-tablet px-0">
@@ -46,8 +46,8 @@ defineProps({
                     </div>
                     <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
-                            <a href="/out?url=https://tokopedia.link/sAfn7lIkFDb" target="_blank">
-                                <img src="../assets/images/button_tokped.png" alt="">
+                            <a href="/wa" target="_blank">
+                                <img src="../assets/images/button_whatsapp.png" alt="">
                             </a>
                         </div>
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
@@ -116,8 +116,8 @@ defineProps({
                 <div class="column is-12-mobile is-8-tablet has-text-centered px-0">
                     <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
-                            <a href="/wa" target="_blank">
-                                <img src="../assets/images/button_whatsapp.png" alt="">
+                            <a href="/out?url=https://www.tiktok.com/@moell.id" target="_blank">
+                                <img src="../assets/images/button_tiktok.png" alt="">
                             </a>
                         </div>
                         <div class="column is-4-mobile is-6-tablet px-0">
@@ -128,8 +128,8 @@ defineProps({
                     </div>
                     <div class="columns is-multiline is-mobile is-vcentered is-centered px-0">
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
-                            <a href="/out?url=https://tokopedia.link/sAfn7lIkFDb" target="_blank">
-                                <img src="../assets/images/button_tokped.png" alt="">
+                            <a href="/wa" target="_blank">
+                                <img src="../assets/images/button_whatsapp.png" alt="">
                             </a>
                         </div>
                         <div class="column is-4-mobile is-6-tablet has-text-centered px-0">
